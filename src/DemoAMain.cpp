@@ -14,3 +14,9 @@ DemoAMain::DemoAMain()
 DemoAMain::~DemoAMain()
 {
 }
+
+
+void DemoAMain::SetupBackgroundBuffer()
+{
+	FillBackground(0xff0000);
+}

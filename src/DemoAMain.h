@@ -6,5 +6,6 @@ class DemoAMain :
 public:
 	DemoAMain();
 	~DemoAMain();
+	void SetupBackgroundBuffer();
 };
 
